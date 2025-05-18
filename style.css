@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+header{
+    background-color: green;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+#titulo{
+    margin-top: 0;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+#cabinput{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background-color: rgb(218, 239, 241);
+    transition: 2s;
+}
+#cabinput:hover{
+    transform: scale(1.1);
+}
+#img2{
+    height: 30px;
+    width: 30px;
+}
+#search{
+    border-radius: 30px;
+    background-color: yellow;
+    transition: o.3s;
+}
+#search:hover{
+    color: orange;
+    transform: scale(0.9);
+}
+#cabform{
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+#cab1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+#ch{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 50px;
+}
+.botao{
+    background-color: yellowgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    transition: 0.5s;
+    border: 5px;
+}
+.botao:hover{
+    background-color: rgb(206, 231, 210);
+    cursor: pointer;
+}
+#comparar{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 300px 300px;
+}
+#oculto{
+    display: none;
+}
+.produto{
+    background-color: rgb(177, 223, 223);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    box-shadow:  5px 5px 5px rgb(135, 135, 136);
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 1px;
+}
+#propostas{
+    padding: 1px;
+    display: inline;
+}
+.imatex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.parac3{
+    display: inline;
+}
+.p3{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.t3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#invisivel{
+    display: none;
+}
+#img1{
+    height: 150px;
+    width: 150px;
+}
